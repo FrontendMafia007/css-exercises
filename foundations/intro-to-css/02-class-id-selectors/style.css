@@ -1,1 +1,22 @@
 /* Add CSS Styling */
+
+.ODD {
+    background-color: lightpink;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+
+}
+
+.Cooler { 
+ font-size: 24px;}
+
+#Big_even {
+    color: blue;
+    font-size: 36px;
+}
+
+
+#Small_even {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
