@@ -8,7 +8,8 @@
   font-weight: 900;
   color: tomato;
   background: white;
-  padding: 4px 32px;
+  padding: 0px 32px;
+
 }
 
 ul {
@@ -22,4 +23,29 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  align-items: center;
+  height: 80px;
+}
+
+.left-buttons{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 5px;
+  width: 220px;
+  flex-flow: row wrap;
+}
+
+.right-buttons{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 5px;
+  width: 220px;
+  text-wrap: wrap;
+  flex-flow: row wrap;
 }
