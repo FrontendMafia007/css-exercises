@@ -9,6 +9,7 @@ body {
 
 img {
   width: 600px;
+  margin: 1500px;
 }
 
 button {
@@ -23,4 +24,100 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+:any-link {
+  text-decoration: none;
+   color: gray;
+   font-weight: 600;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.buttons > button {
+  padding: 5px ;
+}
+
+.input {
+  margin: 10px;
+}
+
+.navigation {
+  display: flex;
+  /* border: 2px solid gray; For Debug */
+}
+
+.header {
+  display: flex;
+  /* border: 2px solid gray; For Debug */
+  width: 100%;
+  justify-content: space-between;
+}
+
+.header-left-links {
+  display: flex;
+  /* border: 2px solid gray; For Debug */
+  width: 130px;
+  justify-content: space-evenly;
+  padding: 5px;
+}
+
+.header-right-links {
+  display: flex;
+  /* border: 2px solid gray; For Debug */
+  width: 160px;
+  justify-content: space-evenly;
+  padding: 5px;
+}
+
+/* .header > .left-links {
+  align-self: flex-end;
+} */
+
+.content {
+/* border: 2px solid gray; For Debug */
+display: flex;
+flex-direction: column;
+}
+
+img  {
+  margin: 0 auto;
+}
+
+.input{
+ align-self: center;
+}
+
+.buttons {
+ align-self: center;
+ margin-bottom: 100px;
+}
+
+.footer-container {
+  display: flex;
+  background-color: #eeeeee;
+}
+
+.footer{ width: 100%;
+ display: flex;
+ /* border: 2px solid gray; For Debug */
+ justify-content: space-between;
+}
+
+.footer-left-links {
+ /* border: 2px solid gray; For Debug */
+ width: 220px;
+ justify-content: space-evenly;
+ display: flex;
+ padding: 5px;
+}
+
+.footer-right-links {
+ /* border: 2px solid gray; For Debug */
+ width: 160px;
+ justify-content: space-evenly;
+ display: flex;
+ padding: 5px;
 }
